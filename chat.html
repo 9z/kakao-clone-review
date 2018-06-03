@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="css/style.css">
   <title>chat</title>
 </head>
-<body>
-  <header class="top-header">
+<body class="body-chat">
+  <header class="top-header chat-header">
     <div class="header__top">
       <div class="header_column">
         <i class="fa fa-plane"></i>
@@ -39,6 +39,39 @@
       </div>
     </div>
   </header>
+
+  <main class="chat">
+    <div class="date-divider">
+      <span class="date-divider__text">Wednsday, August 2, 2017</span>
+    </div>
+    <div class="chat__message chat__message-from-me">
+      <span class="chat__message-time">17:55</span>
+      <span class="chat__message-body">
+        Hello! This is a test message.
+      </span>
+    </div>
+    <div class="chat__message chat__message--to-me">
+      <img src="images/ironman.jpg">
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">ironman</h3>
+        <span class="chat__message-body">
+          Hello! This is a test message.
+        </span>
+      </div>
+      <span class="chat__message-time">17:56</span>
+    </div>
+
+    <div class="type-message">
+      <i class="fa fa-plus fa-lg"></i>
+      <div class="type-message__input">
+        <input type="text">
+        <i class="fa fa-smile-o fa-lg"></i>
+        <span class="record-message">
+          <i class="fa fa-microphone fa-lg"></i>
+        </span>
+      </div>
+    </div>
+  </main>
 
 </body>
 </html>
